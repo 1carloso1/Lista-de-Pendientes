@@ -2,8 +2,8 @@ import axios from 'axios'
 import { type Todo as TodoType } from "./types/types"
 
 const BASE_URL = 'https://api.jsonbin.io/v3/b' // URL base para JSONBin.io
-const MASTER_KEY = '$2a$10$VIxYEK2Gcm4s.nYhzL6SMu3kVyVcj18oH5e.oQuaPcYvkIneGtTNC' // Reemplaza con tu clave maestra
-const BIN = '6748d440e41b4d34e45c7280' // ID del bin a utilizar
+const MASTER_KEY = '' // Reemplaza con tu clave maestra
+const BIN = '' // ID del bin a utilizar
 const RUTA = `${BASE_URL}/${BIN}`
 const headers = {
     'Content-Type': 'application/json',
